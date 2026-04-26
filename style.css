@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #fff0f5;
+  text-align: center;
+}
+
+.card {
+  margin-top: 100px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.main {
+  display: none;
+}
+
+.photo {
+  width: 200px;
+  border-radius: 20px;
+  margin: 20px 0;
+}
+
+/* Name Animation */
+#nameAnimation {
+  font-size: 32px;
+  margin-top: 20px;
+}
+
+/* Chat */
+.chat-container {
+  max-width: 350px;
+  margin: auto;
+  background: #ece5dd;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.message {
+  max-width: 70%;
+  padding: 8px;
+  margin: 5px;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+.sent {
+  background: #dcf8c6;
+  margin-left: auto;
+}
+
+.received {
+  background: white;
+  margin-right: auto;
+}
+
+/* Cake */
+.cake {
+  font-size: 60px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.final {
+  display: none;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+/* Hearts */
+@keyframes floatUp {
+  from { transform: translateY(0); opacity: 1; }
+  to { transform: translateY(-600px); opacity: 0; }
+}
